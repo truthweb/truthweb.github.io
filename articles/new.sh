@@ -24,10 +24,17 @@ permalink: /$filename/
 ---
 
 Replace this line of text and below with the article content.
+
 ## This will become a section heading.
+1. List entry one.
+2. List entry two.
+3. List entry three.
+
 ### This can be used for sub-sections.
-Emphasis: *Italics* **Bold** 
-Enjoy writing, Mr. Freeman!
+
+Emphasis can be done like this: *Italics* **Bold** 
+
+**J. Freeman**
 " > tempdat.txt
 wordgrinder --convert tempdat.txt $FILE
 rm tempdat.txt
