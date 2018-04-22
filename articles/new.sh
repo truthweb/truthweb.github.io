@@ -5,7 +5,8 @@ echo "(Follow prompts, hitting ENTER after each entry is complete.)"
 echo ""
 read -p "Article Headline (Long title.): " headline
 read -p "Article filename (one word to describe article): " filename
-read -p "Date of posting (Enter as YYYY-MM-dd): " date
+#read -p "Date of posting (Enter as YYYY-MM-dd): " date
+date=`date +%Y-%m-%d`
 echo ""
 FILE=$date-$filename.wg     
 if [ -f $FILE ]; then
