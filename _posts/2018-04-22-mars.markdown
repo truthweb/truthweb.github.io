@@ -15,7 +15,6 @@ This catastrophe, and the potential presence of a greater spacefaring species pr
 
 >The Fermi paradox, or Fermi's paradox, named after physicist Enrico Fermi, is the apparent contradiction between the lack of evidence and high probability estimates for the existence of extraterrestrial civilizations.[^1]
 
-Here is a presentation by Dr John Brandburg:  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RjGkgK5taP4?start=157" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+To learn more, please view this [talk by Dr John Brandburg](https://www.youtube.com/watch?v=RjGkgK5taP4)
 
 [^1]: From [*Wikipedia.*](https://en.wikipedia.org/wiki/Fermi_paradox)
