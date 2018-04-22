@@ -21,6 +21,9 @@ Emphasis can be done[^2] like this: *Italics* **Bold**
 
 Article by **J. Freeman**.
 
-<br \>
+<br />
+
 [^1]: Reference one.
+
 [^2]: Reference two.
+
