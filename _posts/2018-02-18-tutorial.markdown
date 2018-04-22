@@ -4,12 +4,12 @@ title: "TruthWeb Tutorial"
 date: 2018-02-18 23:59:18
 ---
 
-TruthWeb utilizes the Jekyll static site generator. Jekyll and the Liquid rendering engine can process and display a great deal of content rendered in *Kramdown.* Examples[^3] are shown below.
+TruthWeb utilizes the Jekyll static site generator. Jekyll and the Liquid rendering engine can process and display a great deal of content rendered in *Kramdown.* Examples are shown below.
 
 ## Second Level Heading
 1. List entry one.
 2. List entry two.
-3. List entry three[^1].
+3. List entry three.
 
 ### Third Level Heading
 Placeholder paragraph.
@@ -23,10 +23,6 @@ Placeholder paragraph.
 ###### Sixth Level Heading (Max)
 Placeholder paragraph.
 
-Emphasis can be done[^2] like this: *Italics* **Bold**
+Emphasis can be done like this: *Italics* and **Bold**.
 
 Article by **J. Freeman**.
-
-[^1]: Reference one.
-[^2]: Reference two.
-[^3]: This one should appear first despite being ^3.
