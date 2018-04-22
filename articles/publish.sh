@@ -19,7 +19,7 @@ for article in *.wg; do
     echo ""
     echo "Converting $filename to an article."
     wordgrinder --convert $article temp.txt
-    iconv -f utf-8 -t utf-8 -c temp.txt
+    iconv -f utf-8 -t utf-8 -c temp.txt -o temp.txt
     mv temp.txt ~/truthweb.github.io/_posts/$filename.markdown
     echo "Moved file to _posts."
 done
