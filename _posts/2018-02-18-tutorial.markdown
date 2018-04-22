@@ -1,0 +1,26 @@
+---
+layout: post
+title: "TruthWeb Tutorial"
+date: 2018-02-18 23:59:18
+---
+
+TruthWeb utilizes the Jekyll static site generator. Jekyll and the Liquid rendering engine can process and display a great deal of content rendered in *Kramdown.* Examples are shown below.
+
+## Second Level Heading
+1. List entry one.
+2. List entry two.
+3. List entry three.[^1]
+
+### Third Level Heading
+
+#### Fourth Level Heading
+##### Fifth Level Heading
+###### Sixth Level Heading (Max)
+
+Emphasis can be done[^2] like this: *Italics* **Bold**
+
+Article by **J. Freeman**
+
+[^1]: Reference one.
+[^2]: Reference two.
+
