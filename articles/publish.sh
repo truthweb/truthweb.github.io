@@ -7,17 +7,26 @@ case "$REPLY" in
   * ) echo "Invalid. Exiting..." && exit 1;;
 esac
 echo "Publishing all .wg files to _posts as .markdown files."
+echo "Purging _posts folder..."
+cd ~/truthweb.github.io
+rm -rf _posts
+mkdir _posts
+cd ~/truthweb.github.io/articles
 
 for article in *.wg; do
-    echo "Converting $article..."
     newest=$article
-
-
-
+    filename="${article%.*}"
+    echo ""
+    echo "Converting $filename to an article."
+    wordgrinder --convert $article $filename.txt
+    mv $filename.txt ~/truthweb.github.io/_posts/$filename.markdown
+    echo "Moved file to _posts."
 done
 
+echo ""
 echo "Publishing all files..."
 cd ..
+echo "Uploading changes to articles. Latest article: $newest."
 git add .
 git commit -m "Uploading changes to articles. Latest article: $newest."
 git push

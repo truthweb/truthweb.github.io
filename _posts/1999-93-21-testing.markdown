@@ -1,0 +1,9 @@
+---
+layout: post
+title: This is the long title.
+date: 1999-93-21 23:59:18
+permalink: /testing/
+---
+
+Enter content here.
+
