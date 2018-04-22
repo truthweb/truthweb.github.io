@@ -18,8 +18,9 @@ for article in *.wg; do
     filename="${article%.*}"
     echo ""
     echo "Converting $filename to an article."
-    wordgrinder --convert $article $filename.txt
-    mv $filename.txt ~/truthweb.github.io/_posts/$filename.markdown
+    wordgrinder --convert $article temp.txt
+    iconv -f utf-8 -t utf-8 -c temp.txt
+    mv temp.txt ~/truthweb.github.io/_posts/$filename.markdown
     echo "Moved file to _posts."
 done
 
