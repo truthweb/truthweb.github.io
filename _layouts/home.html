@@ -7,10 +7,10 @@ layout: default
     <h1 class="page-heading" style="text-align:center;">WELCOME TO REALITY</h1>
     <p style="text-align:center;">TruthWeb brings you the best in subjective journalism.</p>
     <br \>
+    
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">Latest Articles:</h2>
+  <!--h2 class="post-list-heading">Latest Articles:</h2-->
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -25,8 +25,5 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
 
 </div>
