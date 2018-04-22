@@ -19,8 +19,7 @@ TruthWeb utilizes the Jekyll static site generator. Jekyll and the Liquid render
 
 Emphasis can be done[^2] like this: *Italics* **Bold**
 
-Article by **J. Freeman**
+Article by **J. Freeman**.
 
 [^1]: Reference one.
 [^2]: Reference two.
-
