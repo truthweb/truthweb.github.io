@@ -1,14 +1,11 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: TRUTHWEB 
+author: J. Freeman
+email: truth.gh@protonmail.com
 description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  TRUTHWEB hosts the objective and subjective musings of J. Freeman, a veteran journalist with experience documenting current events throughout the world. After being fired for his accurate coverage of current events in London, J. Freeman moved to Prague and began his career in freelancing journalism.
 
-# social links
-twitter_username: jekyllrb
-github_username:  jekyll
+# social link
+github_username: truthweb
 rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -27,7 +24,7 @@ rss: rss
 #   instance: example.com
 
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
