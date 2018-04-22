@@ -24,5 +24,15 @@ h1, h2, h3, h4, h5, h6 {
 	background: black;
 	a {
 		color: white !important;
+		font-family: 'Raleway', sans-serif;
+	
+		&:visited {
+		color: white;
+		text-decoration: none;
+		}
+		&:hover {
+		color: blue;
+		text-decoration: none;
+		}
 	}
 }
