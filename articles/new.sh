@@ -18,9 +18,8 @@ fi
 echo "Generating data..."
 echo "---
 layout: post
-title: $headline
+title: "$headline"
 date: $date 23:59:18
-permalink: /$filename/
 ---
 
 Replace this line of text and below with the article content.
