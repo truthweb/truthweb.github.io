@@ -22,5 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-header {
 	border: 1px solid black;
 	background: black;
-	color: white !important;
+	a {
+		color: white !important;
+	}
 }
