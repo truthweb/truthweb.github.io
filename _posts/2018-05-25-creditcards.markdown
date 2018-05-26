@@ -2,6 +2,8 @@
 layout: post
 title: "Credit Cards Are The Plague"
 date: 2018-05-25 23:59:18
+categories: non-fiction
+permalint: /non-fiction/creditcards
 ---
 
 Credit Cards and the Death of Financial Responsibility
