@@ -2,7 +2,7 @@
 layout: post
 title: "Europe Recieves a Globalist Beating"
 permalink: /non-fiction/eu-globalists
-date: 2018-05-26 23:59:18
+date: 2018-03-26 23:59:18
 categories: non-fiction
 ---
 
