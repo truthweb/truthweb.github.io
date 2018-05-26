@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 	<br \>
     <h1 class="page-heading" style="text-align:center;">ARCHIVE</h1>
-    <p class="post-meta" style="text-align:center;">All articles on the site.</p>
+    <p class="post-meta" style="text-align:center;">Every new work of J.Freeman.</p>
     <br \>
     
   {{ content }}
@@ -13,16 +13,7 @@ layout: default
   <!--h2 class="post-list-heading">Latest Articles:</h2-->
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-      {{ post.excerpt }}
-      </li>
+      <li><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
       {%- endfor -%}
     </ul>
 
