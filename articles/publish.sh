@@ -24,6 +24,7 @@ for article in *.wg; do
     dos2unix temp.txt
     tr -cd '\11\12\15\40-\176' < temp.txt > tempf.txt
     mv tempf.txt ~/truthweb.github.io/_posts/$filename.markdown
+    rm temp.txt
     echo "Moved file to _posts."
 done
 
