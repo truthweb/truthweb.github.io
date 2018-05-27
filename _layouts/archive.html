@@ -15,7 +15,7 @@ layout: default
   <!--h2 class="post-list-heading">Latest Articles:</h2-->
     <ol>
       {%- for post in site.posts -%} 
-      <li><a href="{{ post.url | relative_url }}">{{ post.date | date: date_format }} <b>{{ post.categories }}</b> {{ post.title | escape }}</a></li>
+      <li><a href="{{ post.url | relative_url }}">{{ post.date | date: date_format }} <b>{{ post.categories }}</b>: {{ post.title | escape }}</a></li>
       {%- endfor -%}
     </ol>
 
