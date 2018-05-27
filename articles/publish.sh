@@ -21,6 +21,7 @@ for article in *.wg; do
     wordgrinder --convert $article temp.txt
     sed -i $'s/[^[:print:]\t]//g' temp.txt
     iconv -f utf-8 -t utf-8 -c -o temp.txt temp.txt
+    dos2unix temp.txt
     mv temp.txt ~/truthweb.github.io/_posts/$filename.markdown
     echo "Moved file to _posts."
 done
